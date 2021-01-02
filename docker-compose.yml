@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  web_portal:
+    image: nginx:latest
+    ports:
+      - 8080:80
+    volumes:
+      - ${PWD}:/usr/share/nginx/html:ro
