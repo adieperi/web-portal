@@ -5,4 +5,4 @@ services:
     ports:
       - 8080:80
     volumes:
-      - ${PWD}:/usr/share/nginx/html:ro
+      - ${PWD}/dist:/usr/share/nginx/html:ro
